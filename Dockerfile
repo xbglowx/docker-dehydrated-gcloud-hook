@@ -1,5 +1,5 @@
 FROM xbglowx/dehydrated:latest
-MAINTAINER Brian Glogower <xbglowx@gmail.com>
+LABEL maintainer="Brian Glogower <xbglowx@gmail.com>"
 
 ENV PATH=/dehydrated/google-cloud-sdk/bin:$PATH
 WORKDIR /dehydrated
